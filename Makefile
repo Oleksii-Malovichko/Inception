@@ -2,7 +2,7 @@ NAME = inception
 
 COMPOSE = docker compose -f srcs/docker-compose.yml
 # change alex to omalovic
-DATA_DIR = /home/alex/data
+DATA_DIR = /home/omalovic/data
 
 all: up
 

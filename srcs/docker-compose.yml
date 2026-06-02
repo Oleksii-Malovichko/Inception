@@ -46,13 +46,13 @@ volumes:
     driver: local
     driver_opts:
       type: none
-      device: /home/alex/data/db
+      device: /home/omalovic/data/db
       o: bind
   wp_data:
     driver: local
     driver_opts:
       type: none
-      device: /home/alex/data/wordpress
+      device: /home/omalovic/data/wordpress
       o: bind
 
 networks:
