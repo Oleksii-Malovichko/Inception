@@ -69,3 +69,6 @@ After running "_make up_", WordPress will automatically create two user accounts
 - WordPress Documentation:<br>https://wordpress.org/documentation/
 
 - MariaDB Documentation:<br>https://mariadb.com/docs/
+
+### AI Usage
+AI was used during this project to better understand the technical concepts behind Inception. It was also helpfull with researching the documentations for Docker and Docker Compose. At the start of doing this project it was difficult to understand how mariadb should be managed and configured, in this case, AI also helped me to get it in easier way.
