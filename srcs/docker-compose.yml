@@ -47,12 +47,14 @@ services:
 volumes:
   db:
     driver: local
+    name: db
     driver_opts:
       type: none
       device: /home/omalovic/data/db
       o: bind
   wp_data:
     driver: local
+    name: wp_data
     driver_opts:
       type: none
       device: /home/omalovic/data/wordpress

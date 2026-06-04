@@ -1,9 +1,8 @@
-FROM debian:bullseye
+FROM debian:bookworm
 
 # RUN apt update && apt install mariadb-server -y && rm -rf /var/lib/apt/lists/* && apt clean
 RUN apt-get update && apt-get install -y mariadb-server && apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# кто потом должен это удалять?
 COPY conf/my.cnf /etc/mysql/my.cnf
 COPY tools/init_db.sh /init_db.sh
 

@@ -62,4 +62,4 @@ if ! wp core is-installed --path="$WP_PATH" --allow-root; then
 fi
 
 # start as PID 1
-exec php-fpm7.4 -F
+exec php-fpm8.2 -F
