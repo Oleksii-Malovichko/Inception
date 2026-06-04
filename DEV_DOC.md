@@ -19,7 +19,7 @@ Used for non-sensitive configuration, such as:
 - domain name
 
 #### Docker secrets
-Used for sensitive data:
+Used for sensitive data of mariadb:
 - db_password
 - db_root_password
 
@@ -75,8 +75,9 @@ This will:
 
 ## Data Persistence
 All persistent data is stored on the host machine:
-- MariaDB data: ```/home/login/data/db```
-- WordPress data: ```/home/login/data/wordpress```
+- MariaDB data:<br>```/home/login/data/db```
+
+- WordPress data:<br>```/home/login/data/wordpress```
 
 This was implemented using Docker volumes with bind-backend storage.
 
